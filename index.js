@@ -27,7 +27,7 @@ app.get("/sound/:name", (req, res) => {
     res.json({
       sound: "야옹",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.post.naver.com%2Fviewer%2FpostView.naver%3FvolumeNo%3D27619351%26memberNo%3D2247263&psig=AOvVaw2aR2nMDV8sV4MAO6FDF3Cl&ust=1672202044635000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMDPp5r8mPwCFQAAAAAdAAAAABAD",
+        "https://post-phinf.pstatic.net/MjAyMDAyMjlfMjY4/MDAxNTgyOTU0Nzg3MjQ4.PBMFV4WrSJmeSUJ56c4C7Vkz_SsQlJ1SByKU18kkJh0g.T7mQnadCWVtEZ448AGk_9kG1HFBAzdztXZcBjvSbduwg.JPEG/%EA%B3%A0%EC%96%91%EC%9D%B4_%EB%82%98%EC%9D%B41.jpg",
     });
   } else if (name == "pig") {
     res.json({ sound: "꿀꿀" });
