@@ -24,7 +24,11 @@ app.get("/sound/:name", (req, res) => {
   if (name == "dog") {
     res.json({ sound: "멍멍" });
   } else if (name == "cat") {
-    res.json({ sound: "야옹" });
+    res.json({
+      sound: "야옹",
+      image:
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.post.naver.com%2Fviewer%2FpostView.naver%3FvolumeNo%3D27619351%26memberNo%3D2247263&psig=AOvVaw2aR2nMDV8sV4MAO6FDF3Cl&ust=1672202044635000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMDPp5r8mPwCFQAAAAAdAAAAABAD",
+    });
   } else if (name == "pig") {
     res.json({ sound: "꿀꿀" });
   } else {
